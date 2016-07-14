@@ -19,3 +19,8 @@
 .dropdown-menu-services {
   width: 22rem;
 }
+
+ul.transsight-list, ul.transsight-list li {
+  list-style-type: disc !important;
+  list-style-position: inside !important;
+}
