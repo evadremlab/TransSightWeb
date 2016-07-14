@@ -1,4 +1,6 @@
 
+/* contains changes to the template */
+
 .navbar-header .navbar-brand:before {
   content: "";
   background: url("../images/transsight-logo.png") no-repeat;
@@ -8,4 +10,12 @@
   top: -30px;
   left: -115px;
   border-radius: 0;
+}
+
+.dropdown-menu {
+  padding-top: 15px;
+}
+
+.dropdown-menu-services {
+  width: 22rem;
 }
