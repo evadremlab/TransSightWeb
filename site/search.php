@@ -37,66 +37,61 @@
 </head>
 <body>
 <div class="page">
-    <!--========================================================
-                              HEADER
-    =========================================================-->
-    <header>
-        <div id="stuck_container" class="stuck_container">
-            <div class="container">
-                <div class="navbar-header">
-                    <h1 class="navbar-brand">
-                        <a href="./">&nbsp;</a>
-                    </h1>
-                </div>
-
-                <nav class="navbar navbar-default navbar-static-top ">
-
-                    <ul class="navbar-nav sf-menu navbar-right" data-type="navbar">
-                        <li>
-                            <a href="./">Home</a>
-                        </li>
-                        <li>
-                            <a href="about.html">About</a>
-                        </li>
-                        <li class="dropdown">
-                            <a href="services.html">Services</a>
-                            <ul class="dropdown-menu dropdown-menu-services">
-                                <li>
-                                    <a href="services-program-management.html">Program Management </a>
-                                </li>
-                                <li>
-                                    <a href="services-systems-integration.html">System Integration</a>
-                                    <ul class="dropdown-menu">
-                                        <li>
-                                            <a href="#">Latest</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Archive</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#">Data Analytics</a>
-                                </li>
-                                <li>
-                                    <a href="#">Managed Services</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="blog.html">Blog</a>
-                        </li>
-
-                        <li>
-                            <a href="contacts.html">Contacts</a>
-                        </li>
-                    </ul>
-                </nav>
+<!--========================================================
+                          HEADER
+=========================================================-->
+<header>
+    <div id="stuck_container" class="stuck_container">
+        <div class="container">
+            <div class="navbar-header">
+                <h1 class="navbar-brand">
+                    <a href="./">&nbsp;</a>
+                </h1>
             </div>
+            <nav class="navbar navbar-default navbar-static-top ">
+                <ul class="navbar-nav sf-menu navbar-right" data-type="navbar">
+                    <li>
+                        <a href="./">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li class="dropdown active">
+                        <a href="services.html">Services</a>
+                        <ul class="dropdown-menu dropdown-menu-services">
+                            <li>
+                                <a href="services-program-management.html">Consulting Services</a>
+                            </li>
+                            <li>
+                                <a href="services-systems-integration.html">System Integration</a>
+                                <!--<ul class="dropdown-menu">
+                                    <li>
+                                        <a href="#">Latest</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Archive</a>
+                                    </li>
+                                </ul>-->
+                            </li>
+                            <li>
+                                <a href="data-analytics.html">Data Analytics</a>
+                            </li>
+                            <li>
+                                <a href="managed-services.html">Managed Services</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!--<li>
+                        <a href="blog.html">Blog</a>
+                    </li>-->
+                    <li>
+                        <a href="contacts.html">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-    </header>
-
-
+    </div>
+</header>
 
   <!--========================================================
                             CONTENT
