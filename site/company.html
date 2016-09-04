@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -7,20 +7,19 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="format-detection" content="telephone=no"/>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <title>Contact</title>
+    <title>About</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Links -->
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/mailform.css" rel="stylesheet">
-    <link href="css/google-map.css" rel="stylesheet">
     <link href="css/transsight.css" rel="stylesheet">
 
     <!--JS-->
     <script src="js/jquery.js"></script>
     <script src="js/jquery-migrate-1.2.1.min.js"></script>
+
 
 
     <!--[if lt IE 9]>
@@ -54,7 +53,7 @@
                         <li>
                             <a href="./">Home</a>
                         </li>
-                        <li class="dropdown">
+                        <li class="dropdown active">
                             <a href="company.html">Company</a>
                             <ul class="dropdown-menu dropdown-menu-company">
                                 <li>
@@ -96,7 +95,7 @@
                         <!--<li>
                             <a href="blog.html">Blog</a>
                         </li>-->
-                        <li class="active">
+                        <li>
                             <a href="contacts.html">Contacts</a>
                         </li>
                     </ul>
@@ -111,91 +110,121 @@
 
     <main>
 
-        <section class="well8 well8--mod bg-lighter">
-            <div class="container well6 well6--mod  text-center">
-                <h3>Contact Info</h3>
-            </div>
-            <div class="well--skin bg-white">
-                <div class="container">
-                    <div class="row wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="col-md-4 col-sm-4 col-xs-12">
-                            <div class="contact-info fa-map-marker ">
-                                <address><p>Address</p>
-                                <p>7599 Balmoral Way, San Ramon, CA 94582</p></address>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-4 col-xs-12">
-                            <div class="contact-info fa-mobile">
-                                <p>Phone</p>
-                                <span>
-                                <a href="callto:#">+1 510-415-6301</a>
-                                </span>
-                            </div>
+        <section class="well8 bg-lighter">
+            <div class="container text-center">
+                <h3>Company</h3>
 
-                        </div>
-                        <div class="col-md-4 col-sm-4 col-xs-12">
-                            <div class="contact-info fa-envelope">
-                                <p>E-mail</p>
-                                <span><a href="mailto:contact@transsight.com">contact@transsight.com</a></span>
-                            </div>
-                        </div>
+                <div class="row">
+                    <!--<div class="col-md-4 col-sm-4 col-xs-12 center wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="thumbnail thumbnail3"><a href="#" class="overlay"><img src="images/page-2_img01.jpg" alt="" /></a></div>
+                        <h4 class="h4--mod h4--mod--skin">
+                            <a href="about.html">About Us</a>
+                        </h4>
+                        <p class="inset">TransSight brings over 100 years of collective experience working on transportation projects that range from Advance Traveler Information System (ATIS), 511, Tolling and Transit Fare Collection.</p>
+                        <p class="inset">TransSight(TS) is a leader in technology development, integration, and program management that has successfully accomplished major Intelligent Transportation System (ITS) projects.</p>
+                        <p class="inset">We have successfully delivered solutions and services for over 80+ government organization worldwide. Our goal is to provide proactive support, on-time and within budget project delivery with upmost project quality.</p>
+                    </div>-->
+                    <div class="col-md-6 col-sm-6 col-xs-12 center wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="thumbnail thumbnail3"><a href="#" class="overlay"><img src="images/page-2_img01.jpg" alt=""/></a></div>
+                        <h4 class="h4--mod h4--mod--skin">
+                            <a href='#'>Mission Statement</a>
+                        </h4>
+                        <p class="inset">TransSight offers transportation organizations innovative services and solutions meeting their internal business and user needs and/or challenges. By connecting things and automating processes that includes integrating systems and data sources to provide a holistic picture, offering analytical and dashboard engine to allow continual improvements and by key focus on end-user experience.</p>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 center wow fadeInLeft" data-wow-delay="0.4s">
+                        <div class="thumbnail thumbnail3"><a href="#" class="overlay"><img src="images/page-2_img02.jpg" alt=""/></a></div>
+                        <h4 class="h4--mod h4--mod--skin">
+                            <a href='#'>Our Vision</a>
+                        </h4>
+                        <p class="inset">To be a recognized as a valuable and innovative partner for the businesses, government and their users that we serve.  We will strive to deliver innovative services and scalable solutions for our customers.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="bg-lighter">
+        <section class="parallax well4" data-url="images/parallax1.jpg" data-mobile="true" data-speed="1">
             <div class="container">
-                <h3 class="text-center">Contact Form</h3>
+                <h3 class="text-center">Why Choose Us</h3>
+                <ul class="index-list row offs3 col-6_mod-list">
+                    <li class="col-md-6 col-sm-6 col-xs-12">
+                        <h5>Our Team</h5>
+                        <p>Proven and award winning team that has deployed and managed 50+ implementations worldwide</p>
+                    </li>
 
-                <form class='mailform' method="post" action="bat/rd-mailform.php">
-                    <input type="hidden" name="form-type" value="contact"/>
-                    <fieldset>
-                        <label data-add-placeholder="">
-                            <input type="text"
-                                   name="name"
-                                   placeholder="Name"
-                                   data-constraints="@LettersOnly @NotEmpty"/>
-                        </label>
+                    <li class="col-md-6 col-sm-6 col-xs-12">
+                        <h5>Track Record</h5>
+                        <p>Track record of innovations and delivering user-centric solutions.</p>
+                    </li>
 
-                        <label data-add-placeholder="">
-                            <input type="text"
-                                   name="email"
-                                   placeholder="E-mail"
-                                   data-constraints="@Email @NotEmpty"/>
-                        </label>
+                    <li class="col-md-6 col-sm-6 col-xs-12">
+                        <h5>Record of Success</h5>
+                        <p>Implemented and maintained systems used by millions of users every day.</p>
+                    </li>
 
-                        <label data-add-placeholder="">
-                            <input type="text"
-                                   name="phone"
-                                   placeholder="Phone"
-                                   data-constraints="@Phone"/>
-                        </label>
+                    <li class="col-md-6 col-sm-6 col-xs-12">
+                        <h5>On-time Delivery</h5>
+                        <p>A team known for on-time delivery and exceeding KPIs.</p>
+                    </li>
 
-                        <label data-add-placeholder="" class="textarea">
-                                                          <textarea name="message" placeholder="Message"
-                                                                    data-constraints="@NotEmpty"></textarea>
-                        </label>
-
-                        <div class="mfControls text-center">
-                            <button class="btn btn-sm" type="submit">Send Message</button>
-                            <!--<button class="btn btn-default" type="reset">Reset</button>-->
-                        </div>
-                    </fieldset>
-                </form>
+                    <li class="col-md-6 col-sm-6 col-xs-12">
+                        <h5>Scalable Platorm</h5>
+                        <p>Offering a scalable and extensible Omni-channel platform that meets today’s needs and is ready for future.</p>
+                    </li>
+                </ul>
             </div>
         </section>
 
-        <!--
-        <div class="map">
-            <div id="google-map" class="map_model" data-zoom="11"></div>
-            <ul class="map_locations">
-                <li data-x="-73.9874068" data-y="40.643180">
-                    <p> 9870 St Vincent Place, Glasgow, DC 45 Fr 45. <span>800 2345-6789</span></p>
-                </li>
-            </ul>
-        </div>
-        -->
+        <section class="well8 bg-lighter">
+            <div class="container">
+                <h3 class="text-center">Testimonials</h3>
+
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="0.4s">
+                        <blockquote class="blockquote-media text-center" data-equal-group="1">
+                            <p>
+                                <q>“I would highly recommend Bimesh Giri for any difficult software development project. For 6 years he worked tirelessly on the Bay Area's 511 program, learning complex, undocumented legacy systems and quickly becoming the expert in many of the technical areas.”</q>
+                            </p>
+
+                            <div class="cite-wrap">
+                                <img class="img-circle" src="images/page-2_img05.jpg" alt=""/>
+                                <cite class="h4--mod h4--mod--skin">Janet Banner<br>
+                                    <span class="h6 text-primary ff-secondary">Senior Program Manager at Metropolitan Transportation Commission</span>
+                                </cite>
+                            </div>
+                        </blockquote>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="0.2s">
+                        <blockquote class="blockquote-media text-center" data-equal-group="1">
+                            <p>
+                                <q>“Satinder is a strategic thinker who looks at the holistic nature of transportation systems and their impact on the world. He brings a unique perspective to the world of transportation and urban planning.”</q>
+                            </p>
+
+                            <div class="cite-wrap">
+                                <img class="img-circle" src="images/page-2_img04.jpg" alt=""/>
+                                <cite class="h4--mod h4--mod--skin">Doug Morse<br>
+                                    <span class="h6 text-primary ff-secondary">Founder / Chief Inspiration Officer at ServTrans</span>
+                                </cite>
+                            </div>
+                        </blockquote>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="0.2s">
+                        <blockquote class="blockquote-media text-center" data-equal-group="1">
+                            <p>
+                                <q>“The delivery of complex traveler information projects requires coordination, leadership, project management, business savvy, and a subject matter expertise that is hard to come by. Satinder brings this and more to the equation. Satinder's success guiding the Bay Area 511 - known as the "gold standard" for traveler information - is a case in point.”</q>
+                            </p>
+
+                            <div class="cite-wrap">
+                                <img class="img-circle" src="images/page-2_img04.jpg" alt="" />
+                                <cite class="h4--mod h4--mod--skin">
+                                    Phil Silver<br>
+                                    <span class="h6 text-primary ff-secondary">Director, Business Development at Urban Insights Associates</span>
+                                </cite>
+                            </div>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
 

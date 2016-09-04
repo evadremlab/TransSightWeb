@@ -1,6 +1,8 @@
 
 /* contains changes to the template */
 
+footer { display: none; }
+
 .navbar-header .navbar-brand:before {
   content: "";
   background: url("../images/transsight-logo.png") no-repeat;
@@ -12,8 +14,23 @@
   border-radius: 0;
 }
 
+.isStuck .navbar-header .navbar-brand:before {
+  content: "";
+  background: url("../images/transsight-logo.png") no-repeat;
+  background-size: 237px 90px;
+  top: -17px !important;
+  width: 237px !important;
+  height: 90px !important;
+  left: -115px;
+  border-radius: 0;
+}
+
 .dropdown-menu {
   padding-top: 15px;
+}
+
+.dropdown-menu-company {
+  width: 22rem;
 }
 
 .dropdown-menu-services {
