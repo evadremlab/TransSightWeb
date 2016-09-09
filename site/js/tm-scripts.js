@@ -461,5 +461,5 @@ var o = $('#camera');
 ;
 (function ($) {
     include('js/jquery.rd-parallax.js');
+    include('js/transsight.js');
 })(jQuery);
-

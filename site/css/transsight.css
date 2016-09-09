@@ -1,43 +1,109 @@
 
 /* contains changes to the template */
 
-footer { display: none; }
+footer .copyright {
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-header .navbar-brand:hover {
+    cursor: pointer;
+}
 
 .navbar-header .navbar-brand:before {
-  content: "";
-  background: url("../images/transsight-logo.png") no-repeat;
-  background-size: 317px 120px;
-  width: 317px;
-  height: 120px;
-  top: -30px;
-  left: -115px;
-  border-radius: 0;
+    content: "";
+    background: url("../images/transsight-logo.png") no-repeat;
+    background-size: 317px 120px;
+    width: 317px;
+    height: 120px;
+    top: -30px;
+    border-radius: 0;
 }
 
 .isStuck .navbar-header .navbar-brand:before {
-  content: "";
-  background: url("../images/transsight-logo.png") no-repeat;
-  background-size: 237px 90px;
-  top: -17px !important;
-  width: 237px !important;
-  height: 90px !important;
-  left: -115px;
-  border-radius: 0;
+    content: "";
+    background: url("../images/transsight-logo.png") no-repeat;
+    background-size: 237px 90px;
+    width: 237px !important;
+    height: 90px !important;
+    top: -17px !important;
+    border-radius: 0;
 }
 
 .dropdown-menu {
-  padding-top: 15px;
+    padding-top: 15px;
 }
 
 .dropdown-menu-company {
-  width: 22rem;
+    width: 17rem;
+    left: -42px;
 }
 
 .dropdown-menu-services {
-  width: 22rem;
+    width: 17rem;
+    left: -42px;
 }
 
 ul.transsight-list, ul.transsight-list li {
-  list-style-type: disc !important;
-  list-style-position: inside !important;
+    list-style-type: disc !important;
+    list-style-position: inside !important;
+}
+
+.dropdown-menu > li > a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.customers-page .camera_caption h2 {
+    color: #111;
+    position: relative;
+    top: -15rem;
+}
+        
+.customers-page .camera_next, 
+.customers-page .camera_prev {
+    color: #000 !important;
+}
+.customers-page .camera-custom-header {
+    position: relative;
+    top: 10rem;
+    z-index: 999;
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .navbar-header .navbar-brand:before {
+        top: -35px;
+        left: -115px;
+    }
+    .isStuck .navbar-header .navbar-brand:before {
+        top: -12px;
+        left: -115px;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-header .navbar-brand:before {
+        background-size: 254px 96px;
+        width: 254px;
+        height: 96px;
+    }
+    .isStuck .navbar-header .navbar-brand:before {
+        background-size: 190px 72px;
+        width: 190px !important;
+        height: 72px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .navbar-header .navbar-brand:before {
+        left: 0;
+    }
+    .isStuck .navbar-header .navbar-brand:before {
+        left: 0;
+    }
+    .navbar-nav > li + li {
+	    margin-left: 25px;
+    }
 }

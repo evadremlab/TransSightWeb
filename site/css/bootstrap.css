@@ -1077,6 +1077,7 @@ th {
   margin-top: 8px;
 }
 .isStuck .navbar-header .navbar-brand:before {
+  content:  "";
   font-size: 25px;
   line-height: 53px;
   width: 53px;
@@ -5115,6 +5116,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   font-weight: 600;
 }
 .navbar-header .navbar-brand:before {
+  content:  "";
   position: absolute;
   content: '\f0eb';
   color: #ffffff;
